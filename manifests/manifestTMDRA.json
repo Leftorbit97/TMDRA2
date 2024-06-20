@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Leftorbit97.github.io/TMDRA2/manifests/manifestTMDRA.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://8fc5d745-8020-4c7a-b1de-68e21668fa07",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a2e95b2e-72bb-46d7-8cfb-c4fdfcfcb14b",
+      "@type" : "sc:Canvas",
+      "label" : "model1",
+      "height" : 405,
+      "width" : 431,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b90e3938-8ebf-4526-b15d-6ea7916ca1a5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/overkill_202404/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/overkill_202404",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 405,
+          "width" : 431
+        },
+        "on" : "http://a2e95b2e-72bb-46d7-8cfb-c4fdfcfcb14b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://bbf3d96c-855a-4718-ba49-0997498bfe37",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 516,
+      "width" : 364,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8cda07c9-6eaf-4a17-8bea-b19c5167f8d3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gru_model/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gru_model",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 516,
+          "width" : 364
+        },
+        "on" : "http://bbf3d96c-855a-4718-ba49-0997498bfe37"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5f5b34ab-5009-4b20-af8e-4e440da6cab2",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 516,
+      "width" : 364,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://59d73623-fc43-45ab-95cd-761ddb8a47d1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/lstm_model/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/lstm_model",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 516,
+          "width" : 364
+        },
+        "on" : "http://5f5b34ab-5009-4b20-af8e-4e440da6cab2"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
