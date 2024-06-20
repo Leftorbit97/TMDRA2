@@ -26,7 +26,7 @@
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
         "@id" : "http://b90e3938-8ebf-4526-b15d-6ea7916ca1a5",
-        "@type" : "oa:Annotation",
+        "@type" : "Diagram depicting LSTM model structure",
         "motivation" : "sc:painting",
         "resource" : {
           "@id" : "https://iiif.archivelab.org/iiif/overkill_202404/full/full/0/default.jpg",
