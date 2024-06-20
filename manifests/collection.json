@@ -1,0 +1,13 @@
+{
+  "id" : "https://Leftorbit97.github.io/TMDRA2/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Leftorbit97/TMDRA2 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Leftorbit97.github.io/TMDRA2/manifests/manifestTMDRA.json",
+    "label" : "[Click to edit label]"
+  } ]
+}
